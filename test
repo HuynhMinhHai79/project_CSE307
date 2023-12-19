@@ -1,0 +1,119 @@
+<nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">home</a>
+            </li>
+            <li class="nav-item">
+                <div style="border: 1px solid;">
+                    <select onchange="location = this.value;">
+                        <option value="products.html">books</option>
+                        <option value="products.html">books for kids</option>
+                        <option value="product_adults.html">books for adults</option>
+                    </select>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="details.html">details</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="account.html">account</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+<!-- /////////////// -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="icon" href="https://cdn.tgdd.vn/hoi-dap/1104257/giao-dien-nen-den-cho-youtube.jpg" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Use the latest version of Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <div class="container-fluid">
+        <header class="header">
+            <a href="home.html" class="logo"><img src="images/NewLogo.jpg" alt=""></a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <div style="border: 1px solid;">
+                                <select class="form-select" onchange="location = this.value;">
+                                    <option value="products.html">books</option>
+                                    <option value="products.html">books for kids</option>
+                                    <option value="product_adults.html">books for adults</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="account.html">account</a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!--  -->
+
+    <section class="home">
+        <!-- Nội dung phần home -->
+    </section>
+
+    <!-- Các phần còn lại của trang -->
+
+    <footer class="footer">
+        <!-- Nội dung phần footer -->
+    </footer>
+
+    <!-- Add Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../projectcse307/E-commerce_website/E-commerce_website/images"
+		},
+		{
+			"path": "../../../../../projectcse307/E-commerce_website/E-commerce_website/js"
+		},
+		{
+			"path": "../../../../../projectcse307/E-commerce_website/E-commerce_website/css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}
